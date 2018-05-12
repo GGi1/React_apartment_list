@@ -29,10 +29,12 @@ class ApartmentDetails extends Component{
   render(){
     return(
       <div>
-      <Link to = '/'>Home</Link>
+      <Link to = '/'>Home</Link> <br/>
+      <img src ={`/assets/images/${this.state.apartment_we_clicked.pic}`}/>
       <h2>{this.state.apartment_we_clicked.name}</h2>
       <h3>{this.state.apartment_we_clicked.details}</h3>
       <h4>available: {this.state.apartment_we_clicked.rented}</h4>
+      <Link to = '/'>  Back </Link> <br/>
       </div>
     );
   }

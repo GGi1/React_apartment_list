@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './component/Home';
 import ApartmentDetails from './ApartmentDetails';
 
+
 class App extends Component {
   render() {
     return (

@@ -11,3 +11,8 @@ a{
 a:hover{
   color: #EEEEFF;
 }
+
+img{
+  height: 300px;
+  width: 500px;
+}
